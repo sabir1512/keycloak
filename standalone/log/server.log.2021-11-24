@@ -1,0 +1,2 @@
+2021-11-24 01:21:21,513 WARN  [org.keycloak.events] (default task-3) type=REFRESH_TOKEN_ERROR, realmId=abbn, clientId=abbn_frontend, userId=null, ipAddress=127.0.0.1, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2021-11-24 19:43:31,541 WARN  [org.keycloak.authentication.DefaultAuthenticationFlow] (default task-3) REQUIRED and ALTERNATIVE elements at same level! Those alternative executions will be ignored: [auth-cookie, identity-provider-redirector]

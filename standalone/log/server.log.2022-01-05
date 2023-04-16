@@ -1,0 +1,2 @@
+2022-01-05 21:54:37,591 WARN  [org.keycloak.authentication.DefaultAuthenticationFlow] (default task-4) REQUIRED and ALTERNATIVE elements at same level! Those alternative executions will be ignored: [auth-cookie, identity-provider-redirector]
+2022-01-05 21:54:51,242 WARN  [org.keycloak.authentication.DefaultAuthenticationFlow] (default task-4) REQUIRED and ALTERNATIVE elements at same level! Those alternative executions will be ignored: [auth-cookie, identity-provider-redirector]

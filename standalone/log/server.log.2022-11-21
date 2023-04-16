@@ -1,0 +1,2 @@
+2022-11-21 08:06:34,107 WARN  [org.keycloak.events] (default task-1) type=REFRESH_TOKEN_ERROR, realmId=t2, clientId=t2_frontend, userId=null, ipAddress=127.0.0.1, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2022-11-21 21:04:43,889 WARN  [org.keycloak.events] (default task-1) type=REFRESH_TOKEN_ERROR, realmId=t2, clientId=t2_frontend, userId=null, ipAddress=127.0.0.1, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret

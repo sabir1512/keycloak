@@ -1,0 +1,132 @@
+2021-12-07 02:48:06,060 WARN  [org.keycloak.authentication.DefaultAuthenticationFlow] (default task-5) REQUIRED and ALTERNATIVE elements at same level! Those alternative executions will be ignored: [auth-cookie, identity-provider-redirector]
+2021-12-07 02:57:59,502 WARN  [org.keycloak.authentication.DefaultAuthenticationFlow] (default task-5) REQUIRED and ALTERNATIVE elements at same level! Those alternative executions will be ignored: [auth-cookie, identity-provider-redirector]
+2021-12-07 03:05:23,559 WARN  [org.keycloak.authentication.DefaultAuthenticationFlow] (default task-5) REQUIRED and ALTERNATIVE elements at same level! Those alternative executions will be ignored: [auth-cookie, identity-provider-redirector]
+2021-12-07 03:05:25,379 WARN  [org.keycloak.authentication.DefaultAuthenticationFlow] (default task-5) REQUIRED and ALTERNATIVE elements at same level! Those alternative executions will be ignored: [auth-cookie, identity-provider-redirector]
+2021-12-07 03:06:18,247 WARN  [org.keycloak.events] (default task-5) type=LOGIN_ERROR, realmId=abbn, clientId=abbn_frontend, userId=69a55efe-3e0b-4364-8fa7-27026546b42a, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, selected_credential_id=da7b49f2-866d-4006-bc91-1ade27bcab34, redirect_uri=http://localhost:3000/login, code_id=a23ac114-3251-4719-b5aa-905df7a422c8, authSessionParentId=a23ac114-3251-4719-b5aa-905df7a422c8, authSessionTabId=chXRiIjOlW8
+2021-12-07 03:06:31,649 WARN  [org.keycloak.authentication.DefaultAuthenticationFlow] (default task-5) REQUIRED and ALTERNATIVE elements at same level! Those alternative executions will be ignored: [auth-cookie, identity-provider-redirector]
+2021-12-07 05:15:46,432 WARN  [org.keycloak.events] (default task-5) type=REFRESH_TOKEN_ERROR, realmId=abbn, clientId=abbn_frontend, userId=null, ipAddress=127.0.0.1, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2021-12-07 20:48:28,846 WARN  [org.keycloak.authentication.DefaultAuthenticationFlow] (default task-5) REQUIRED and ALTERNATIVE elements at same level! Those alternative executions will be ignored: [auth-cookie, identity-provider-redirector]
+2021-12-07 20:49:10,723 WARN  [org.keycloak.authentication.DefaultAuthenticationFlow] (default task-5) REQUIRED and ALTERNATIVE elements at same level! Those alternative executions will be ignored: [auth-cookie, identity-provider-redirector]
+2021-12-07 23:07:38,713 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2021-12-07 23:07:38,744 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2021-12-07 23:07:38,760 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2021-12-07 23:07:38,835 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/KeycloakDS]
+2021-12-07 23:07:38,846 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2021-12-07 23:07:38,861 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTPS listener https suspending
+2021-12-07 23:07:38,864 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2021-12-07 23:07:38,876 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0022: Unregistered web context: '/auth' from server 'default-server'
+2021-12-07 23:07:38,893 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-4) Undeploying Keycloak provider: niroj-keycloak-2fa-email-authenticator-1.0-SNAPSHOT.jar
+2021-12-07 23:07:38,900 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment niroj-keycloak-2fa-email-authenticator-1.0-SNAPSHOT.jar (runtime-name: niroj-keycloak-2fa-email-authenticator-1.0-SNAPSHOT.jar) in 84ms
+2021-12-07 23:07:38,905 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2021-12-07 23:07:38,909 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2021-12-07 23:07:38,912 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2021-12-07 23:07:38,927 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment keycloak-server.war (runtime-name: keycloak-server.war) in 151ms
+2021-12-07 23:07:38,951 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0003: Stopped offlineSessions cache from keycloak container
+2021-12-07 23:07:38,951 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0003: Stopped clientSessions cache from keycloak container
+2021-12-07 23:07:38,955 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0003: Stopped work cache from keycloak container
+2021-12-07 23:07:38,955 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) WFLYCLINF0003: Stopped offlineClientSessions cache from keycloak container
+2021-12-07 23:07:38,955 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped authenticationSessions cache from keycloak container
+2021-12-07 23:07:38,965 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0003: Stopped sessions cache from keycloak container
+2021-12-07 23:07:38,966 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 80) WFLYCLINF0003: Stopped actionTokens cache from keycloak container
+2021-12-07 23:07:38,966 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0003: Stopped loginFailures cache from keycloak container
+2021-12-07 23:07:38,969 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0003: Stopped keys cache from keycloak container
+2021-12-07 23:07:38,996 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0003: Stopped users cache from keycloak container
+2021-12-07 23:07:38,996 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0003: Stopped authorization cache from keycloak container
+2021-12-07 23:07:39,000 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2021-12-07 23:07:38,999 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0003: Stopped realms cache from keycloak container
+2021-12-07 23:07:39,001 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2021-12-07 23:07:39,002 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 77) Stopping cache manager null on null
+2021-12-07 23:07:39,002 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 2.2.5.Final stopping
+2021-12-07 23:07:39,073 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2021-12-07 23:07:39,088 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 71) Stopping cache manager null on null
+2021-12-07 23:07:39,106 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: Keycloak 14.0.0 (WildFly Core 15.0.1.Final) stopped in 326ms
+2021-12-07 23:19:54,928 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final
+2021-12-07 23:19:55,821 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2021-12-07 23:19:55,847 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2021-12-07 23:19:55,963 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: Keycloak 14.0.0 (WildFly Core 15.0.1.Final) starting
+2021-12-07 23:19:55,965 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	[Standalone] = 
+	file.encoding = UTF-8
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.headless = true
+	java.class.path = /Users/abn/desktop/keycloak-14.0.0 /jboss-modules.jar
+	java.class.version = 61.0
+	java.home = /Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home
+	java.io.tmpdir = /var/folders/1f/29z9p__93mx2n6kcwfh__qm80000gn/T/
+	java.library.path = /Users/abn/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 17.0.1+12-LTS-39
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 17.0.1
+	java.version.date = 2021-10-19
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 17.0.1+12-LTS-39
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/abn/desktop/keycloak-14.0.0 
+	jboss.host.name = abns-macbook-air
+	jboss.modules.dir = /Users/abn/desktop/keycloak-14.0.0 /modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = abns-macbook-air
+	jboss.qualified.host.name = abns-macbook-air.local
+	jboss.server.base.dir = /Users/abn/desktop/keycloak-14.0.0 /standalone
+	jboss.server.config.dir = /Users/abn/desktop/keycloak-14.0.0 /standalone/configuration
+	jboss.server.data.dir = /Users/abn/desktop/keycloak-14.0.0 /standalone/data
+	jboss.server.deploy.dir = /Users/abn/desktop/keycloak-14.0.0 /standalone/data/content
+	jboss.server.log.dir = /Users/abn/desktop/keycloak-14.0.0 /standalone/log
+	jboss.server.name = abns-macbook-air
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/abn/desktop/keycloak-14.0.0 /standalone/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/Users/abn/desktop/keycloak-14.0.0 /standalone/configuration/logging.properties
+	module.path = /Users/abn/desktop/keycloak-14.0.0 /modules
+	native.encoding = UTF-8
+	org.jboss.boot.log.file = /Users/abn/desktop/keycloak-14.0.0 /standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 12.0.1
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/abn/desktop/keycloak-14.0.0 /jboss-modules.jar -mp /Users/abn/desktop/keycloak-14.0.0 /modules org.jboss.as.standalone -Djboss.home.dir=/Users/abn/desktop/keycloak-14.0.0  -Djboss.server.base.dir=/Users/abn/desktop/keycloak-14.0.0 /standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.stderr.encoding = UTF-8
+	sun.stdout.encoding = UTF-8
+	user.country = US
+	user.dir = /Users/abn/Desktop/keycloak-14.0.0 /bin
+	user.home = /Users/abn
+	user.language = en
+	user.name = abn
+	user.timezone = Asia/Kolkata
+2021-12-07 23:19:55,969 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED -Dorg.jboss.boot.log.file=/Users/abn/desktop/keycloak-14.0.0 /standalone/log/server.log -Dlogging.configuration=file:/Users/abn/desktop/keycloak-14.0.0 /standalone/configuration/logging.properties 
+2021-12-07 23:19:56,881 INFO  [org.wildfly.security] (ServerService Thread Pool -- 20) ELY00001: WildFly Elytron version 1.15.3.Final
+2021-12-07 23:19:57,207 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) WFLYCTL0033: Extension 'security' is deprecated and may not be supported in future versions
+2021-12-07 23:19:57,671 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-12-07 23:19:57,835 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 21) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-12-07 23:19:57,882 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 6) WFLYCTL0013: Operation ("add") failed - address: ([("deployment" => "keycloak-server.war")]) - failure description: "WFLYCTL0155: 'runtime-name' may not be null"
+2021-12-07 23:19:58,067 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) "WFLYCTL0193: Failed executing subsystem keycloak-server boot operations"
+2021-12-07 23:19:58,071 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("parallel-subsystem-boot") failed - address: ([]) - failure description: "\"WFLYCTL0193: Failed executing subsystem keycloak-server boot operations\""
+2021-12-07 23:19:58,081 FATAL [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0056: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+2021-12-07 23:19:58,115 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: Keycloak 14.0.0 (WildFly Core 15.0.1.Final) stopped in 26ms
